@@ -3,6 +3,7 @@ import Home from './routes/Home'
 import Pricing from './routes/Pricing'
 import Activities from './routes/Activities'
 import Contact from './routes/Contact'
+import './index.css'
 
 function App() {
   return (
