@@ -2,18 +2,18 @@ import React from 'react'
 import './Price.css'
 import { Link } from 'react-router-dom'
 
-const Pricing = () => {
+const Price = () => {
   return (
     <div className='pricing'>
       <div className='card-container'>
         <div className='card'>
-          <h3>- Essentials -</h3>
+          <h3>- Essential -</h3>
           <span className='bar'></span>
           <p className='currency'>£1,000</p>
           <p>- 3 Days -</p>
-          <p>- Views - </p>
-          <p>- Features -</p>
-          <p>- Shared Dorm - </p>
+          <p>- No views -</p>
+
+          <p>- Shared Room -</p>
           <Link to='/contact' className='btn'>
             Book
           </Link>
@@ -23,9 +23,9 @@ const Pricing = () => {
           <span className='bar'></span>
           <p className='currency'>£2,300</p>
           <p>- 3 Days -</p>
-          <p>- Views - </p>
-          <p>- Features -</p>
-          <p>- Private Room - </p>
+          <p>- Jungle views -</p>
+
+          <p>- Private Quarters -</p>
           <Link to='/contact' className='btn'>
             Book
           </Link>
@@ -35,9 +35,9 @@ const Pricing = () => {
           <span className='bar'></span>
           <p className='currency'>£3,500</p>
           <p>- 3 Days -</p>
-          <p>- Views - </p>
-          <p>- Features -</p>
-          <p>- Private Villa - </p>
+          <p>- Ocean views -</p>
+
+          <p>- Private Villa -</p>
           <Link to='/contact' className='btn'>
             Book
           </Link>
@@ -46,5 +46,4 @@ const Pricing = () => {
     </div>
   )
 }
-
-export default Pricing
+export default Price
