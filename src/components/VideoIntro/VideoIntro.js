@@ -18,7 +18,7 @@ const VideoIntro = () => {
             Activities
           </Link>
           <Link to='/contact' className='btn btn-light'>
-            Launch
+            Bookings
           </Link>
         </div>
       </div>

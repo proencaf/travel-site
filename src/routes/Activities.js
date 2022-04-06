@@ -8,7 +8,7 @@ const Activities = () => {
   return (
     <div>
       <NavBar />
-      <HeroBackground heading='ACTIVITIES.' text='Something for everyone.' />
+      <HeroBackground heading='ACTIVITIES' text='Something for everyone' />
       <Activity />
       <Footer />
     </div>
