@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <div className='header'>
       <Link to='/'>
-        <h1>Remote TRVL</h1>
+        <h1>RMT TRVL</h1>
       </Link>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
