@@ -7,10 +7,14 @@
 
 .hero-img:before {
   content: '';
-  background: url('../../img/hero.jpg') no-repeat center center/cover;
+  background: url('../../img/HERO.jpg') no-repeat;
+  background-size: center;
+  background-position: center;
+  background-size: cover;
   height: 100%;
   width: 100%;
   position: absolute;
+
   top: 0;
   left: 0;
   z-index: -1;
@@ -27,12 +31,14 @@
 
 .hero-img h1 {
   font-size: 2.4rem;
-  color: #000;
+  color: #fff;
+  font-weight: 900;
 }
 
 .hero-img p {
   font-size: 1.4rem;
-  color: #000;
+  color: #fff;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 640px) {
